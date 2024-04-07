@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+/* You can add global styles to this file, and also import other styles files */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+div {
+  display: block;
+}
+
+body {
+  font-family: "Reddit Mono", monospace;
+  color: #ffffff;
+}
